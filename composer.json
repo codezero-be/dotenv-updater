@@ -1,0 +1,44 @@
+{
+    "name": "codezero/dotenv-updater",
+    "description": "Update key/value pairs in a .env file.",
+    "keywords": [
+        "php",
+        "dotenv",
+        "env",
+        "editor",
+        "updater"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivan Vermeyen",
+            "email": "ivan@codezero.be"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0|^8.0"
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodeZero\\DotEnvUpdater\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CodeZero\\DotEnvUpdater\\Tests\\": "tests"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
