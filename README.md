@@ -26,7 +26,7 @@ composer require codezero/dotenv-updater
 Create an instance of the `DotEnvUpdater` and pass it the path to the `.env` file:
 
 ```php
-
+$updater = new \CodeZero\DotEnvUpdater\DotEnvUpdater('/path/to/.env');
 ```
 
 Add any new, or overwrite any existing key/value pairs:
