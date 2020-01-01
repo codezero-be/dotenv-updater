@@ -34,6 +34,13 @@
             "CodeZero\\DotEnvUpdater\\Tests\\": "tests"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CodeZero\\DotEnvUpdater\\Laravel\\DotEnvUpdaterServiceProvider"
+            ]
+        }
+    },
     "config": {
         "preferred-install": "dist",
         "sort-packages": true,
