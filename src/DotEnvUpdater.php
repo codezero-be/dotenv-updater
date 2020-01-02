@@ -133,7 +133,9 @@ class DotEnvUpdater
      */
     protected function replaceExistingLine($key, $value, $env)
     {
-        return preg_replace($this->keyReplacementPattern($key), $this->formatKeyValuePair($key, $value), $env);
+        return preg_replace_callback($this->keyReplacementPattern($key), function () use ($key, $value) {
+            return $this->formatKeyValuePair($key, $value);
+        }, $env);
     }
 
     /**

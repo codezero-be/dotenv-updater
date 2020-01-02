@@ -148,6 +148,24 @@ class DotEnvUpdaterTest extends TestCase
         ]);
     }
 
+    /** @test */
+    public function it_sets_a_value_with_dollar_sign()
+    {
+        $this->createEnvFile([
+            'EXISTING_KEY="String Value"',
+        ]);
+
+        $updater = new DotEnvUpdater($this->getEnvPath());
+
+        $updater->set('EXISTING_KEY', '$2y$10$mQZg');
+
+        $this->assertEquals('$2y$10$mQZg', $updater->get('EXISTING_KEY'));
+
+        $this->assertEnvFileContents([
+            'EXISTING_KEY="$2y$10$mQZg"',
+        ]);
+    }
+
     /**
      * Assert that the .env file contains the given lines of content.
      *
