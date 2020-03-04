@@ -1,6 +1,5 @@
 filter:
     excluded_paths:
-        - "src/Laravel/"
         - "tests/"
         - "tests/temp/"
 checks:
