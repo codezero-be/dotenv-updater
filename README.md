@@ -1,11 +1,12 @@
 # PHP `.env` Updater
 
-[![GitHub release](https://img.shields.io/github/release/codezero-be/dotenv-updater.svg)]()
-[![License](https://img.shields.io/packagist/l/codezero/dotenv-updater.svg)]()
-[![Build Status](https://scrutinizer-ci.com/g/codezero-be/dotenv-updater/badges/build.png?b=master)](https://scrutinizer-ci.com/g/codezero-be/dotenv-updater/build-status/master)
-[![Code Coverage](https://scrutinizer-ci.com/g/codezero-be/dotenv-updater/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/codezero-be/dotenv-updater/?branch=master)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/codezero-be/dotenv-updater/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/codezero-be/dotenv-updater/?branch=master)
-[![Total Downloads](https://img.shields.io/packagist/dt/codezero/dotenv-updater.svg)](https://packagist.org/packages/codezero/dotenv-updater)
+[![GitHub release](https://img.shields.io/github/release/codezero-be/dotenv-updater.svg?style=flat-square)](https://github.com/codezero-be/dotenv-updater/releases)
+[![Laravel](https://img.shields.io/badge/laravel-9-red?style=flat-square&logo=laravel&logoColor=white)](https://laravel.com)
+[![License](https://img.shields.io/packagist/l/codezero/dotenv-updater.svg?style=flat-square)](LICENSE.md)
+[![Build Status](https://img.shields.io/github/workflow/status/codezero-be/dotenv-updater/Tests/master?style=flat-square&logo=github&logoColor=white&label=tests)](https://github.com/codezero-be/dotenv-updater/actions)
+[![Code Coverage](https://img.shields.io/codacy/coverage/6b90492697b14556998607da55510676/master?style=flat-square)](https://app.codacy.com/gh/codezero-be/dotenv-updater)
+[![Code Quality](https://img.shields.io/codacy/grade/6b90492697b14556998607da55510676/master?style=flat-square)](https://app.codacy.com/gh/codezero-be/dotenv-updater)
+[![Total Downloads](https://img.shields.io/packagist/dt/codezero/dotenv-updater.svg?style=flat-square)](https://packagist.org/packages/codezero/dotenv-updater)
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/R6R3UQ8V)
 
