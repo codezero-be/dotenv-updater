@@ -1,7 +1,6 @@
 # PHP `.env` Updater
 
 [![GitHub release](https://img.shields.io/github/release/codezero-be/dotenv-updater.svg?style=flat-square)](https://github.com/codezero-be/dotenv-updater/releases)
-[![Laravel](https://img.shields.io/badge/laravel-9-red?style=flat-square&logo=laravel&logoColor=white)](https://laravel.com)
 [![License](https://img.shields.io/packagist/l/codezero/dotenv-updater.svg?style=flat-square)](LICENSE.md)
 [![Build Status](https://img.shields.io/github/workflow/status/codezero-be/dotenv-updater/Tests/master?style=flat-square&logo=github&logoColor=white&label=tests)](https://github.com/codezero-be/dotenv-updater/actions)
 [![Code Coverage](https://img.shields.io/codacy/coverage/6b90492697b14556998607da55510676/master?style=flat-square)](https://app.codacy.com/gh/codezero-be/dotenv-updater)
