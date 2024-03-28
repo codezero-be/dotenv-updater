@@ -38,7 +38,7 @@ jobs:
 
       - if: github.event_name == 'push'
         name: Run Codacy Coverage Reporter
-        uses: codacy/codacy-coverage-reporter-action@master
+        uses: codacy/codacy-coverage-reporter-action@v1
         with:
           project-token: ${{ secrets.CODACY_PROJECT_TOKEN }}
           coverage-reports: coverage.xml
