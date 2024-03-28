@@ -2,7 +2,7 @@
 
 [![GitHub release](https://img.shields.io/github/release/codezero-be/dotenv-updater.svg?style=flat-square)](https://github.com/codezero-be/dotenv-updater/releases)
 [![License](https://img.shields.io/packagist/l/codezero/dotenv-updater.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/github/workflow/status/codezero-be/dotenv-updater/Tests/master?style=flat-square&logo=github&logoColor=white&label=tests)](https://github.com/codezero-be/dotenv-updater/actions)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/codezero-be/dotenv-updater/run-tests.yml?style=flat-square&logo=github&logoColor=white&label=tests)](https://github.com/codezero-be/dotenv-updater/actions)
 [![Code Quality](https://img.shields.io/codacy/grade/6b90492697b14556998607da55510676/master?style=flat-square)](https://app.codacy.com/gh/codezero-be/dotenv-updater)
 [![Total Downloads](https://img.shields.io/packagist/dt/codezero/dotenv-updater.svg?style=flat-square)](https://packagist.org/packages/codezero/dotenv-updater)
 
