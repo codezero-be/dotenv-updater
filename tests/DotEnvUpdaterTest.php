@@ -4,7 +4,7 @@ namespace CodeZero\DotEnvUpdater\Tests;
 
 use CodeZero\DotEnvUpdater\DotEnvUpdater;
 
-class DotEnvUpdaterTest extends TestCase
+final class DotEnvUpdaterTest extends TestCase
 {
     /** @test */
     public function it_gets_values_from_an_env_file()
@@ -38,7 +38,7 @@ class DotEnvUpdaterTest extends TestCase
     public function it_adds_a_key_and_value_to_a_new_env_file()
     {
         $this->deleteEnvFile();
-        $this->assertFileNotExists($this->getEnvPath());
+        $this->assertFileDoesNotExist($this->getEnvPath());
 
         $updater = new DotEnvUpdater($this->getEnvPath());
 
